@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Asap', sans-serif;
+  font-weight: lighter;
+  padding: 50px;
+  text-align: center;
+}
+
+.bg-storefront {
+  background: url("../images/min/storefront-min.jpg");
+}
+
+.bg-walkin {
+  background: url("../images/min/walkin-min.jpg");
+}
+
+.bg-rightside {
+  background: url("../images/min/rightside-min.jpg");
+}
+
+.bg-leftside {
+  background: url("../images/min/leftside-min.jpg");
+}
+
+.bg-hello {
+  background: url("../images/min/hello-min.jpg");
+}
+
+.bg-form {
+  background: url("../images/min/form-min.jpg");
+}
+
+.bg {
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+  text-align: center;
+}
+
+.bg > * {
+  color: white;
+  text-shadow: 0 0 10px white;
+}
