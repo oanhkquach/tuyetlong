@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-h1 {
+h1, .contact {
   font-family: 'Asap', sans-serif;
   font-weight: lighter;
   padding: 50px;
