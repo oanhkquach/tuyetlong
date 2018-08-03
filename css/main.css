@@ -35,15 +35,9 @@ h1 {
 }
 
 .bg {
-  background-position: center center !important;
-  background-attachment: fixed !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 100vh;
-  text-align: center;
-}
-
-.bg > * {
-  color: white;
-  text-shadow: 0 0 10px white;
 }
