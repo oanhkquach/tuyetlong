@@ -37,7 +37,7 @@ h1 {
 .bg {
   background-position: center center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
