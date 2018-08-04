@@ -3,11 +3,32 @@
   margin: 0;
 }
 
-h1, .contact {
+h1, #contact {
   font-family: 'Asap', sans-serif;
   font-weight: lighter;
   padding: 50px;
   text-align: center;
+}
+
+nav {
+  background-color: #575757;
+  padding: 6px;
+  text-align: center;
+}
+
+nav > a {
+  text-decoration: none;
+  font-family: 'Asap', sans-serif;
+  color: white;
+  background-color: #353535;
+  padding: 5px;
+  transition: all 0.25s ease;
+}
+
+nav > a:hover {
+  background-color: #AAA;
+  color: #353535;
+  padding: 7px;
 }
 
 .bg-storefront {
